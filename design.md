@@ -31,7 +31,7 @@ Each user can add their own huskies. Each dog record includes:
 | Field | Type | Required |
 |-------|------|----------|
 | Name | Text | ✓ |
-| Gender | Select (Male/Female/Unknown) | ✗ |
+| Gender | Select (Male/Female/Unknown) | ✓ |
 | Notes | Text | ✗ |
 | Weight | Number | ✗ |
 | Photo | Attachment | ✗ |
