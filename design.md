@@ -57,9 +57,9 @@ Per-dog status info:
 | Field | Type | Notes |
 |-------|------|-------|
 | Dog(s) | Link to Huskies | Multi-select allowed — can link multiple dogs |
-| Date | Date |  |
+| Date | DateTime |  |
 | **Status** | Select | Options: Underweight / Overweight / Sick / Injured / Restricted / Other |
-| Completed | Date | When status ended/resolved |
+| Completed | DateTime | When status ended/resolved |
 | Notes | Long Text | Medical observations, treatment details |
 | Attachments | Attachment | Photos, lab results, vet documents |
 | Author | Link to Users | Who entered the record |
@@ -90,7 +90,7 @@ Track genetic connections between dogs:
 | Relationship Type | Select (Parent/Offspring/Sibling/Littermate) |
 
 ### 7. Public Directory (Guest Access)
-- Guests (not logged in) can browse public dogs only
+- Guests (not logged in) can browse publicly shared info
 - Filter/search public dogs
 - View dog profiles marked as Public
 - Cannot edit any dogs without being logged in
