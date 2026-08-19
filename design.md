@@ -43,7 +43,7 @@ Each user can add their own huskies. Each dog record includes:
 | Visibility Level | Who Can See | Who Can Edit |
 |------------------|-------------|--------------|
 | **Private** | Creator only | Creator only |
-| **Friends** | Creator + invited users | Creator  |
+| **Friends** | Creator + Friends of Creator | Creator only |
 | **Public** | Anyone (including guests/not logged in) | Creator only |
 
 **Invitation System:**
